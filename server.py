@@ -30,7 +30,7 @@ def webhook():
         print "Outgoing to %s: %s" % (sender, response)
         messenger.send_message(FACEBOOK_TOKEN, sender, response)
 
-    return "ok"
+    return "no"
 
 if __name__ == '__main__':
     # Suppress nltk warnings about not enough data
